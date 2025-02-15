@@ -1,4 +1,4 @@
-# Secure Payment Confirmation
+# Secure Payment  Confirmation
 
 Secure Payment Confirmation (SPC) is a Web API to support streamlined
 authentication during a payment transaction. It is designed to scale
