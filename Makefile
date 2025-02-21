@@ -6,7 +6,7 @@ local: spec.bs
 spec.html: spec.bs
 	@ (HTTP_STATUS=$$(curl https://api.csswg.org/bikeshop/ \
 	                       --output spec.html \
-	                       --write-out "%{http_code}" \
+	                       --write-out "{http_code}" \
 	                       --header "Accept: text/plain, text/html" \
 	                       -F -on=log&print \
 	                       -F file=@spec.bs) && \
